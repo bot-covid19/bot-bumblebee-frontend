@@ -1,5 +1,4 @@
 import AppWrapper from 'containers/AppWrapper';
-import Integrations from 'containers/Integrations';
 
 const routes = [{
   name: 'HomeCarePatients',

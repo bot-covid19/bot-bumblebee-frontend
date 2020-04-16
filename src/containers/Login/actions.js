@@ -1,9 +1,9 @@
 import { request } from 'core/constants';
 
-export const savePatient = (body) => {
+export const login = (body) => {
   console.log(body);
 
-  request.post('patients', body)
+  request.post('login', body)
     .then((response) => {
       // dispatch({
       //   type: 'SAVE_PATIENT_DATA',

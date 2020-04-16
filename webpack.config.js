@@ -22,7 +22,9 @@ module.exports = {
       lib: path.resolve(__dirname, './src/lib/'),
       containers: path.resolve(__dirname, './src/containers/'),
       utils: path.resolve(__dirname, './src/utils/'),
-      services: path.resolve(__dirname, './src/services/')
+      services: path.resolve(__dirname, './src/services/'),
+      hooks: path.resolve(__dirname, './src/hooks/'),
+      contexts: path.resolve(__dirname, './src/contexts/')
     }
   },
   output: {
